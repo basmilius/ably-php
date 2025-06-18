@@ -69,19 +69,6 @@ require_once __DIR__ . '/ably-php/ably-loader.php';
 
 1. This client library requires PHP version 5.4 or greater
 
-## Running the tests
-
-The client library uses the Ably sandbox environment to provision an app and run the tests against that app.  In order to run the tests, you need to:
-
-	git clone https://github.com/ably/ably-php.git
-	cd ably-php
-    composer install
-    git submodule init
-    git submodule update
-    ./vendor/bin/phpunit
-
-Note - If there is a issue while running tests [SSL certificate error: unable to get local issuer certificate], please set SSL cert path in `php.ini`.  For more information, follow https://aboutssl.org/fix-ssl-certificate-problem-unable-to-get-local-issuer-certificate/
-
 ## Contributing
 
 1. Fork it
