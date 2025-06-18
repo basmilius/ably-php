@@ -65,10 +65,6 @@ Clone or download Ably from this repo and require `ably-loader.php`:
 require_once __DIR__ . '/ably-php/ably-loader.php';
 ```
 
-## Known limitations
-
-1. This client library requires PHP version 5.4 or greater
-
 ## Contributing
 
 1. Fork it
