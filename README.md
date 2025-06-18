@@ -40,6 +40,11 @@ This SDK supports the following platforms:
 
 ---
 
+## Releases
+
+The [CHANGELOG.md](/ably/ably-php/blob/main/CONTRIBUTING.md) contains details of the latest releases for this SDK. You can also view all Ably releases on [changelog.ably.com](https://changelog.ably.com).
+
+---
 
 ## Known Limitations
 
