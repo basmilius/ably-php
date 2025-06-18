@@ -52,26 +52,10 @@ Read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines to contribute to Ably.
 
 ---
 
-## Known Limitations
+## Support, Feedback, and Troubleshooting
 
-Currently, this SDK only supports [Ably REST](https://www.ably.com/docs/rest). However, you can use the [MQTT adapter](https://www.ably.com/docs/mqtt) to implement [Ably's Realtime](https://www.ably.com/docs/realtime) features using [Mosquitto PHP](https://github.com/mgdm/Mosquitto-PHP).
+For help or technical support, visit the [Ably Support page](https://ably.com/support).
 
-### Via composer
+### Ably REST API
 
-The client library is available as a [composer package on packagist](https://packagist.org/packages/ably/ably-php). If you don't have composer already installed, you can get it from https://getcomposer.org/.
-
-Install Ably from the shell with:
-
-    $ composer require ably/ably-php --update-no-dev
-
-Then simply require composer's autoloader:
-
-```php
-require_once __DIR__ . '/vendor/autoload.php';
-```
-
-### Manual installation
-Clone or download Ably from this repo and require `ably-loader.php`:
-```php
-require_once __DIR__ . '/ably-php/ably-loader.php';
-```
+This SDK currently supports only the [Ably REST API](https://www.ably.com/docs/rest). For realtime capabilities, you can use the [MQTT adapter](https://www.ably.com/docs/mqtt) alongside [Mosquitto PHP](https://github.com/mgdm/Mosquitto-PHP) to implement [Ably's Realtime features](https://www.ably.com/docs/realtime).
