@@ -45,12 +45,6 @@ This SDK supports the following platforms:
 
 Currently, this SDK only supports [Ably REST](https://www.ably.com/docs/rest). However, you can use the [MQTT adapter](https://www.ably.com/docs/mqtt) to implement [Ably's Realtime](https://www.ably.com/docs/realtime) features using [Mosquitto PHP](https://github.com/mgdm/Mosquitto-PHP).
 
-## Documentation
-
-Visit https://www.ably.com/docs for a complete API reference and more examples.
-
-## Installation
-
 ### Via composer
 
 The client library is available as a [composer package on packagist](https://packagist.org/packages/ably/ably-php). If you don't have composer already installed, you can get it from https://getcomposer.org/.
