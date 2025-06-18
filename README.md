@@ -46,6 +46,12 @@ The [CHANGELOG.md](/ably/ably-php/blob/main/CONTRIBUTING.md) contains details of
 
 ---
 
+## Contributing
+
+Read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines to contribute to Ably.
+
+---
+
 ## Known Limitations
 
 Currently, this SDK only supports [Ably REST](https://www.ably.com/docs/rest). However, you can use the [MQTT adapter](https://www.ably.com/docs/mqtt) to implement [Ably's Realtime](https://www.ably.com/docs/realtime) features using [Mosquitto PHP](https://github.com/mgdm/Mosquitto-PHP).
@@ -69,12 +75,3 @@ Clone or download Ably from this repo and require `ably-loader.php`:
 ```php
 require_once __DIR__ . '/ably-php/ably-loader.php';
 ```
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Ensure you have added suitable tests and the test suite is passing (run `vendor/bin/phpunit`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
