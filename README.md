@@ -25,15 +25,21 @@ Everything you need to get started with Ably:
 
 ---
 
+## Supported platforms
 
-## Supported Platforms
+Ably aims to support a wide range of platforms. If you experience any compatibility issues, open an issue in the repository or contact [Ably support](https://ably.com/support).
 
-This SDK supports PHP >=7.2
+This SDK supports the following platforms:
 
-We regression-test the library against a selection of PHP versions (which will change over time, but usually consists of the versions that are supported upstream). Please refer to [the check workflow](.github/workflows/check.yml) for the set of versions that currently undergo CI testing.
+| Platform | Support |
+|----------|---------|
+| PHP      | >= 7.2, including PHP 8.0+. |
 
-We'll happily support (and investigate reported problems with) any reasonably-widely-used PHP version.
-If you find any compatibility issues, please [do raise an issue](https://github.com/ably/ably-php/issues/new) in this repository or [contact Ably customer support](https://support.ably.com/) for advice.
+> [!IMPORTANT]
+> PHP SDK versions < 1.1.9 will be [deprecated](https://ably.com/docs/platform/deprecate/protocol-v1) from November 1, 2025.
+
+---
+
 
 ## Known Limitations
 
