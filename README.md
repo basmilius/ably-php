@@ -1,6 +1,6 @@
 ![Ably Pub/Sub PHP Header](images/phpSDK-github.png)
-![Latest Stable Version](https://poser.pugx.org/ably/ably-php/v/stable)
-![License](https://poser.pugx.org/ably/ably-php/license)
+[![Latest Stable Version](https://poser.pugx.org/ably/ably-php/v/stable)](https://packagist.org/packages/ably/ably-php)
+[![License](https://poser.pugx.org/ably/ably-php/license)](https://github.com/ably/ably-php/blob/main/LICENSE)
 
 ---
 
