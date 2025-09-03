@@ -35,6 +35,15 @@ Ably aims to support a wide range of platforms. If you experience any compatibil
 
 ---
 
+## Laravel packages
+
+For Laravel applications, consider these framework-integrated alternatives that provide Laravel integration with automatic configuration and native broadcasting support, eliminating the boilerplate setup required when using the raw PHP SDK directly:
+
+* **[Ably Pub/Sub PHP Laravel SDK](https://github.com/ably/ably-php-laravel)** - Laravel integration package with clean facade and dependency injection interface.
+* **[Ably Broadcaster for Laravel](https://github.com/ably/laravel-broadcaster)** - Official Laravel broadcaster for real-time event broadcasting.
+
+---
+
 ## Installation
 
 To get started with your project, install the package:
@@ -43,6 +52,7 @@ To get started with your project, install the package:
 composer require ably/ably-php
 ```
 ---
+
 
 ## Usage
 
