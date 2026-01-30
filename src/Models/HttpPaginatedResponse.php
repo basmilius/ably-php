@@ -73,7 +73,7 @@ class HttpPaginatedResponse extends PaginatedResult {
         }
     }
 
-    private function parseHeaders($headers) {
+    private function parseHeaders( $headers ) {
         $headers = explode("\n", $headers);
 
         $this->headers = [];
