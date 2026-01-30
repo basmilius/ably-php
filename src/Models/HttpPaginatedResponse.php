@@ -96,7 +96,7 @@ class HttpPaginatedResponse extends PaginatedResult {
                 continue;
             }
 
-            if (!str_contains($header, ':')) {
+            if (strpos($header, ':') === false) {
                 continue;
             }
 
