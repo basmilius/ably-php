@@ -103,6 +103,7 @@ class HttpPaginatedResponse extends PaginatedResult {
             list($key, $value) = explode(':', $header, 2);
             $key = trim($key);
 
+            // Title-Case
             $key = preg_replace_callback('/\w+/', function ($match) {
                 return ucfirst(strtolower($match[0]));
             }, $key);
